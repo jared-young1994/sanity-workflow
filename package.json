@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "demo-custom-workflow",
+  "name": "demo-custom-workflow-with-translation",
   "version": "1.0.0",
-  "description": "A demonstration of a custom publishing workflow using Sanity.",
+  "description": "",
   "main": "package.json",
   "author": "Sanity.io <hello@sanity.io>",
   "license": "UNLICENSED",
@@ -27,6 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^4.2.0",
+    "sanity-plugin-intl-input": "^5.0.0",
     "react-use-gesture": "^7.0.15"
   }
 }

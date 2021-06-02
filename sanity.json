@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Custom workflow demo"
+    "name": "Sanity Workflow with Translation"
   },
   "api": {
-    "projectId": "m2begyfh",
+    "projectId": "0aapq4n9",
     "dataset": "production"
   },
   "plugins": [
@@ -12,7 +12,8 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "intl-input"
   ],
   "env": {
     "development": {
@@ -22,7 +23,7 @@
   "parts": [
     {
       "name": "part:@sanity/desk-tool/structure",
-      "path": "app/structure"
+      "path": "app/deskStructure.js"
     },
     {
       "implements": "part:@sanity/base/document-actions/resolver",

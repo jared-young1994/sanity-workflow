@@ -16,6 +16,8 @@ import howItWorks from './documents/howItWorks'
 import imageCard from './objects/imageCard'
 import textBlock from './objects/textBlock'
 import imageTextBlock from './objects/imageTextBlock'
+import wellbeingThemePage from './documents/wellbeingThemePage'
+import getClearhead from './documents/getClearhead'
 
 export default createSchema({
   name: 'demo-review-workflow',
@@ -32,5 +34,7 @@ export default createSchema({
     post, 
     homePage,
     howItWorks,
+    wellbeingThemePage,
+    getClearhead,
     workflowMetadata])
 })

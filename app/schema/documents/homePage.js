@@ -128,30 +128,5 @@ export default {
         ]
       }],
     },
-
-    {
-      name: 'getClearheadTitle',
-      type: 'string',
-    },
-    {
-      name: 'getClearheadText',
-      type: 'text',
-    },
-    {
-      name: 'getClearheadImage',
-      type: 'image',
-    },
-    {
-      name: 'getClearheadButton',
-      type: 'navigationButton',
-    },
-    {
-      name: 'getClearheadDownloadLink1',
-      type: 'url',
-    },
-    {
-      name: 'getClearheadDownloadLink2',
-      type: 'url',
-    },
   ]
 }

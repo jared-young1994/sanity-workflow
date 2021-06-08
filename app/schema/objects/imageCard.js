@@ -3,6 +3,10 @@ export default {
   type: 'object',
   fields: [
     {
+      name: 'cardImage',
+      type: 'image',
+    },
+    {
       name: 'cardTitle',
       type: 'string',
     },

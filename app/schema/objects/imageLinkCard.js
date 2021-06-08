@@ -3,16 +3,19 @@ export default {
   type: 'object',
   fields: [
     {
-      name: 'cardTitle',
-      type: 'string',
+      name: 'imageCard',
+      type: 'imageCard',
     },
     {
-      name: 'cardText',
-      type: 'text',
-    },
-    {
-      name: 'link',
-      type: 'url',
+      name: 'cardButton',
+      type: 'navigationButton',
     }
-  ]
+  ],
+
+  preview: {
+    select: {
+      title: 'imageCard.cardTitle',
+      media: 'imageCard.cardImage'
+    }
+  }
 }

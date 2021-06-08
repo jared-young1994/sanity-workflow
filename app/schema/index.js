@@ -11,7 +11,11 @@ import richText from './objects/richText'
 import openGraph from './objects/openGraph'
 import captionImage from './objects/captionImage'
 import navigationButton from './objects/navigationButton'
+import imageLinkCard from './objects/imageLinkCard'
+import howItWorks from './documents/howItWorks'
 import imageCard from './objects/imageCard'
+import textBlock from './objects/textBlock'
+import imageTextBlock from './objects/imageTextBlock'
 
 export default createSchema({
   name: 'demo-review-workflow',
@@ -19,9 +23,14 @@ export default createSchema({
     openGraph,
     captionImage,
     navigationButton,
+    imageLinkCard,
     imageCard,
+    textBlock,
+    imageTextBlock,
+
     author, 
     post, 
     homePage,
+    howItWorks,
     workflowMetadata])
 })

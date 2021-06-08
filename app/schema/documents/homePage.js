@@ -13,7 +13,7 @@ export default {
     },
     {
       name: 'heroText',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'heroButton',
@@ -26,7 +26,7 @@ export default {
 
     {
       name: 'caption1Icon',
-      type: 'string',
+      type: 'iconPicker',
     },
     {
       name: 'caption1Title',
@@ -34,7 +34,7 @@ export default {
     },
     {
       name: 'caption1Text',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'caption1Button',
@@ -43,12 +43,12 @@ export default {
     {
       name: 'caption1Cards',
       type: 'array',
-      of: [{ type: 'imageCard' }],
+      of: [{ type: 'imageLinkCard', name: 'caption1Card', title: 'Card' }],
     },
 
     {
       name: 'caption2Icon',
-      type: 'string',
+      type: 'iconPicker',
     },
     {
       name: 'caption2Title',
@@ -56,7 +56,7 @@ export default {
     },
     {
       name: 'caption2Text',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'caption2Button',
@@ -65,12 +65,12 @@ export default {
     {
       name: 'caption2Cards',
       type: 'array',
-      of: [{ type: 'imageCard' }],
+      of: [{ type: 'imageLinkCard' }],
     },
 
     {
       name: 'caption3Icon',
-      type: 'string',
+      type: 'iconPicker',
     },
     {
       name: 'caption3Title',
@@ -78,7 +78,7 @@ export default {
     },
     {
       name: 'caption3Text',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'caption3Button',
@@ -92,7 +92,7 @@ export default {
         fields: [
           {
             name: 'cardIcon',
-            type: 'string',
+            type: 'iconPicker',
           },
           {
             name: 'cardBody',
@@ -119,7 +119,7 @@ export default {
         fields: [
           {
             name: 'testimonialText',
-            type: 'string',
+            type: 'text',
           },
           {
             name: 'testimonialAuthor',
@@ -135,7 +135,7 @@ export default {
     },
     {
       name: 'getClearheadText',
-      type: 'string',
+      type: 'text',
     },
     {
       name: 'getClearheadImage',

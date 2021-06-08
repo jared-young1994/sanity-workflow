@@ -1,5 +1,5 @@
 export default {
-  name: 'imageCard',
+  name: 'imageLinkCard',
   type: 'object',
   fields: [
     {
@@ -10,5 +10,9 @@ export default {
       name: 'cardText',
       type: 'text',
     },
+    {
+      name: 'link',
+      type: 'url',
+    }
   ]
 }

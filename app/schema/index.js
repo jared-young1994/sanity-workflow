@@ -11,6 +11,7 @@ import richText from './objects/richText'
 import openGraph from './objects/openGraph'
 import captionImage from './objects/captionImage'
 import navigationButton from './objects/navigationButton'
+import userCard from './objects/userCard'
 import imageLinkCard from './objects/imageLinkCard'
 import howItWorks from './documents/howItWorks'
 import imageCard from './objects/imageCard'
@@ -18,23 +19,35 @@ import textBlock from './objects/textBlock'
 import imageTextBlock from './objects/imageTextBlock'
 import wellbeingThemePage from './documents/wellbeingThemePage'
 import getClearhead from './documents/getClearhead'
+import clients from './documents/clients'
+import faqs from './documents/faqs'
+import aboutUs from './documents/aboutUs'
+import privacyPolicy from './documents/privacyPolicy'
 
 export default createSchema({
   name: 'demo-review-workflow',
-  types: schemaTypes.concat([richText,
+  types: schemaTypes.concat([
+    author,
+    post,
     openGraph,
     captionImage,
+    workflowMetadata,
+
+    richText,
     navigationButton,
     imageLinkCard,
     imageCard,
     textBlock,
     imageTextBlock,
+    userCard,
 
-    author, 
-    post, 
     homePage,
     howItWorks,
     wellbeingThemePage,
     getClearhead,
-    workflowMetadata])
+    clients,
+    faqs,
+    aboutUs,
+    privacyPolicy,
+  ])
 })

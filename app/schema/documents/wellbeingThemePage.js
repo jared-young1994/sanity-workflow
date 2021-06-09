@@ -25,7 +25,7 @@ export default {
     },
 
     {
-      name: 'caption1Subtitle',
+      name: 'caption1SubTitle',
       type: 'string',
     },
     {
@@ -38,7 +38,7 @@ export default {
     },
 
     {
-      name: 'symptomSubtitle',
+      name: 'symptomSubTitle',
       type: 'string',
     },
     {
@@ -61,7 +61,7 @@ export default {
     },
 
     {
-      name: 'lessonSubtitle',
+      name: 'lessonSubTitle',
       type: 'string',
     },
     {

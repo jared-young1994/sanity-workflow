@@ -23,6 +23,8 @@ import clients from './documents/clients'
 import faqs from './documents/faqs'
 import aboutUs from './documents/aboutUs'
 import privacyPolicy from './documents/privacyPolicy'
+import lessons from './documents/lessons'
+import therapists from './documents/therapists'
 
 export default createSchema({
   name: 'demo-review-workflow',
@@ -49,5 +51,7 @@ export default createSchema({
     faqs,
     aboutUs,
     privacyPolicy,
+    lessons,
+    therapists,
   ])
 })

@@ -8,23 +8,23 @@ export default {
   icon: LessonsIcon,
   fields: [
     {
-      name: 'lessonTitle',
+      name: 'title',
       type: 'string',
     },
     {
-      name: 'lessonSummary',
+      name: 'summary',
       type: 'string',
     },
     {
-      name: 'lessonImage',
+      name: 'image',
       type: 'image',
     },
     {
-      name: 'lessonLink',
+      name: 'navigationButton',
       type: 'navigationButton',
     },
     {
-      name: 'lessonIntroduction',
+      name: 'introductionButton',
       type: 'navigationButton',
     },
 
@@ -37,15 +37,15 @@ export default {
           type: 'object',
           fields: [
             {
-              name: 'stepTitle',
+              name: 'title',
               type: 'string',
             },            
             {
-              name: 'stepIcon',
+              name: 'icon',
               type: 'iconPicker',
             },            
             {
-              name: 'stepText',
+              name: 'text',
               type: 'text',
             },
           ]

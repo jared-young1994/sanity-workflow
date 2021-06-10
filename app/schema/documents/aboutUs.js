@@ -8,23 +8,27 @@ export default {
   icon: AboutUsIcon,
   fields: [
     {
-      name: 'aboutUsHeroTitle',
+      name: 'heroTitle',
       type: 'string',
     },
     {
-      name: 'aboutUsSubTitle',
+      name: 'heroImage',
+      type: 'image',
+    },
+    {
+      name: 'subTitle',
       type: 'string',
     },
     {
-      name: 'aboutUsTitle',
+      name: 'title',
       type: 'string',
     },
     {
-      name: 'aboutUsTextLeft',
+      name: 'bodyTextLeft',
       type: 'text',
     },
     {
-      name: 'aboutUsTextRight',
+      name: 'bodyTextRight',
       type: 'text',
     },
 
@@ -63,9 +67,30 @@ export default {
               name: 'teamMembers',
               type: 'array',
               of: [
-                { 
-                  type: 'userCard',
-                  name: 'teamMember', 
+                {
+                  name: 'teamMember',
+                  type: 'object',
+                  fields: [
+                    {
+                      name: 'image',
+                      type: 'image',
+                    },
+                    {
+                      name: 'name',
+                      type: 'string',
+                    },
+                    {
+                      name: 'title',
+                      type: 'string',
+                    },
+                  ],
+
+                  preview: {
+                    select: {
+                      title: 'name',
+                      media: 'image'
+                    }
+                  }
                 }
               ]
             }

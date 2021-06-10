@@ -8,11 +8,11 @@ export default {
   icon: PrivacyPolicyIcon,
   fields: [
     {
-      name: 'privacyPolicyTitle',
+      name: 'title',
       type: 'string',
     },
     {
-      name: 'privacyPolicyText',
+      name: 'text',
       type: 'richText',
     },
   ]

@@ -11,7 +11,6 @@ import richText from './objects/richText'
 import openGraph from './objects/openGraph'
 import captionImage from './objects/captionImage'
 import navigationButton from './objects/navigationButton'
-import userCard from './objects/userCard'
 import imageLinkCard from './objects/imageLinkCard'
 import howItWorks from './documents/howItWorks'
 import imageCard from './objects/imageCard'
@@ -41,7 +40,6 @@ export default createSchema({
     imageCard,
     textBlock,
     imageTextBlock,
-    userCard,
 
     homePage,
     howItWorks,

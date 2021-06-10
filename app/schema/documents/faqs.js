@@ -9,8 +9,7 @@ export default {
   icon: FAQsIcon,
   fields: [
     {
-      title: 'FAQs Title',
-      name: 'FAQsTitle',
+      name: 'title',
       type: 'string',
     },
     {
@@ -18,16 +17,15 @@ export default {
       type: 'array',
       of: [
         {
-          name: 'Question',
           title: 'question',
           type: 'object',
           fields: [
             {
-              name: 'questionTitle',
+              name: 'title',
               type: 'string',
             },
             {
-              name: 'questionBody',
+              name: 'body',
               type: 'richText',
             },
           ]

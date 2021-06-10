@@ -8,25 +8,25 @@ export default {
   icon: HowItWorksIcon,
   fields: [
     {
-      name: 'howItWorksTitle',
+      name: 'heroTitle',
       type: 'string',
     },
     {
-      name: 'howItWorksText',
+      name: 'heroText',
       type: 'text',
     },
     {
-      name: 'howItWorksImage',
+      name: 'heroImage',
       type: 'image',
     },
     {
-      name: 'howItWorksButton',
+      name: 'heroButton',
       type: 'navigationButton',
     },
     {
-      name: 'howItWorksContent',
+      name: 'contentBlocks',
       type: 'array',
-      of: [{ type: 'imageTextBlock', name: 'howItWorksContentBlock', title: 'Content Block' }],
+      of: [{ type: 'imageTextBlock', name: 'contentBlock' }],
     }
   ]
 }

@@ -8,27 +8,27 @@ export default {
   icon: getClearheadIcon,
   fields: [
     {
-      name: 'getClearheadTitle',
+      name: 'title',
       type: 'string',
     },
     {
-      name: 'getClearheadText',
+      name: 'text',
       type: 'text',
     },
     {
-      name: 'getClearheadImage',
+      name: 'image',
       type: 'image',
     },
     {
-      name: 'getClearheadButton',
+      name: 'navigationButton',
       type: 'navigationButton',
     },
     {
-      name: 'getClearheadDownloadLink1',
+      name: 'downloadLink1',
       type: 'navigationButton',
     },
     {
-      name: 'getClearheadDownloadLink2',
+      name: 'downloadLink2',
       type: 'navigationButton',
     },
   ]

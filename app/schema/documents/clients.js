@@ -8,23 +8,23 @@ export default {
   icon: ClientsIcon,
   fields: [
     {
-      name: 'clientsTitle',
+      name: 'heroTitle',
       type: 'string',
     },
     {
-      name: 'clientsText',
+      name: 'heroText',
       type: 'text',
     },
     {
-      name: 'clientsImage',
+      name: 'heroImage',
       type: 'image',
     },
     {
-      name: 'clientsButton',
+      name: 'heroButton',
       type: 'navigationButton',
     },
     {
-      name: 'clientsSubText',
+      name: 'heroSubText',
       type: 'string',
     },
 
@@ -39,9 +39,9 @@ export default {
     },
 
     {
-      name: 'clientContentBlocks',
+      name: 'contentBlocks',
       type: 'array',
-      of: [{ type: 'imageTextBlock', name: 'clientContentBlock', title: 'Content Block' }],
+      of: [{ type: 'imageTextBlock', name: 'contentBlock' }],
     },
 
     {

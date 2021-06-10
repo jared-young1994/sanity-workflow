@@ -8,19 +8,23 @@ export default {
   icon: wellbeingThemePageIcon,
   fields: [
     {
-      name: 'wellbeingThemeTitle',
+      name: 'pageName',
       type: 'string',
     },
     {
-      name: 'wellbeingThemeText',
+      name: 'heroTitle',
+      type: 'string',
+    },
+    {
+      name: 'heroText',
       type: 'text',
     },
     {
-      name: 'wellbeingThemeImage',
+      name: 'heroImage',
       type: 'image',
     },
     {
-      name: 'wellbeingThemeButton',
+      name: 'heroButton',
       type: 'navigationButton',
     },
 
@@ -69,5 +73,12 @@ export default {
       type: 'array',
       of: [{ type: 'imageLinkCard', name: 'lessonCard', title: 'Lesson Card' }],
     },
-  ]
+  ], 
+
+  preview: {
+    select: {
+      title: 'pageName',
+      media: 'heroImage'
+    }
+  }
 }

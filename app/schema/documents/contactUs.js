@@ -8,11 +8,11 @@ export default {
   icon: ContactUsIcon,
   fields: [
     {
-      name: 'contactUsTitle',
+      name: 'heroTitle',
       type: 'string',
     },
     {
-      name: 'contactUsText',
+      name: 'heroText',
       type: 'text',
     },
 

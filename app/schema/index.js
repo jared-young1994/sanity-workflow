@@ -24,6 +24,9 @@ import aboutUs from './documents/aboutUs'
 import privacyPolicy from './documents/privacyPolicy'
 import lessons from './documents/lessons'
 import therapists from './documents/therapists'
+import testimonialCard from './objects/testimonialCard'
+import personCard from './objects/personCard'
+
 
 export default createSchema({
   name: 'demo-review-workflow',
@@ -40,6 +43,8 @@ export default createSchema({
     imageCard,
     textBlock,
     imageTextBlock,
+    testimonialCard,
+    personCard,
 
     homePage,
     howItWorks,

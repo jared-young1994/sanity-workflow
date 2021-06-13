@@ -114,19 +114,7 @@ export default {
     {
       name: 'testimonials',
       type: 'array',
-      of: [{
-        type: 'object',
-        fields: [
-          {
-            name: 'testimonialText',
-            type: 'text',
-          },
-          {
-            name: 'testimonialAuthor',
-            type: 'string',
-          },
-        ]
-      }],
+      of: [{ type: 'testimonialCard', name: 'testimonal' }],
     },
   ]
 }

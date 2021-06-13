@@ -69,28 +69,7 @@ export default {
               of: [
                 {
                   name: 'teamMember',
-                  type: 'object',
-                  fields: [
-                    {
-                      name: 'image',
-                      type: 'image',
-                    },
-                    {
-                      name: 'name',
-                      type: 'string',
-                    },
-                    {
-                      name: 'title',
-                      type: 'string',
-                    },
-                  ],
-
-                  preview: {
-                    select: {
-                      title: 'name',
-                      media: 'image'
-                    }
-                  }
+                  type: 'personCard',
                 }
               ]
             }
